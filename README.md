@@ -11,11 +11,11 @@ This project combines:
 ---
 
 ## Project Structure
-speechify/
-│
-├── frontend/ # React app
-├── backend-main/ # Express API (file uploads, routing)
-└── backend-ml/ # Python ML service (FastAPI, model inference)
+speechify/ </br>
+│ </br>
+├── frontend/ # React app</br>
+├── backend-main/ # Express API (file uploads, routing)</br>
+└── backend-ml/ # Python ML service (FastAPI, model inference)</br>
 
 ---
 
