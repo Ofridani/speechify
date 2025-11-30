@@ -1,20 +1,7 @@
-import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  const [msg, setMsg] = useState("");
-
-  const pingBackend = async () => {
-    const res = await fetch("http://localhost:3000/test");
-    const data = await res.json();
-    setMsg(data.msg);
-  };
-
-  return (
-    <>
-      <h1>{msg || "No message yet"}</h1>
-      <button onClick={pingBackend}>Ping Backend</button>
-    </>
-  );
+  return <Outlet />
 }
 
 export default App;
